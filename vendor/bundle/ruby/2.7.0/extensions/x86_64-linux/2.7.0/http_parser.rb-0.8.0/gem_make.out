@@ -1,0 +1,16 @@
+current directory: /home/shirley/myblog/Zhuoru_Zhang.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20211220-12956-1bet0hj.rb extconf.rb
+creating Makefile
+
+current directory: /home/shirley/myblog/Zhuoru_Zhang.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+
+current directory: /home/shirley/myblog/Zhuoru_Zhang.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make "DESTDIR="
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.so
+
+current directory: /home/shirley/myblog/Zhuoru_Zhang.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20211220-12956-a0bb12
