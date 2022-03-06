@@ -5,11 +5,11 @@ date:   2017-10-31
 excerpt: "Python; Euler-Lagrange Equations; Impacts"
 image: "/images/blog/PinBall/Pinball Game.gif"
 ---
-
+{{ "/images/blog/PinBall/general_idea.png" | absolute_url }}" alt=""
 This coordiate system of this pinball game is shown below:
-<div style="text-align: center"><img src="/images/blog/PinBall/general_idea.png" /></div>
+<div style="text-align: center"><img src="{{ "/images/blog/PinBall/general_idea.png" | absolute_url }}" alt="" /></div>
 here is the transformation between different coordinates
-<div style="text-align: center"><img src="/images/blog/PinBall/2.png" /></div>
+<div style="text-align: center"><img src="{{ "/images/blog/PinBall/2.png" | absolute_url }}" alt="" width = "600" /></div>
 
 The Pinball Game system consists of 2 bumpers, a pair of slippers and a rotating box. The box can be seen as a rigid body with 3 degrees of freedom(position x,y and angle β).Only the initial position and angle of the box is given, no external force. Each Slipper has length L and 1 degree of freedom(angle α), and an external force of 1000 N exerts on slippers to change direction constantly. No Extra constraints  for the system. The goal of the system is to generate the trajectory of the box after multiple impacts.
 Initially, we set g = - 9.8\
