@@ -7,6 +7,7 @@ image: "/images/blog/PinBall/Pinball Game.gif"
 ---
 {{ "/images/blog/PinBall/general_idea.png" | absolute_url }}" alt=""
 This coordiate system of this pinball game is shown below:
+
 <div style="text-align: center"><img src="{{ "/images/blog/PinBall/general_idea.png" | absolute_url }}" alt="" /></div>
 here is the transformation between different coordinates
 <div style="text-align: center"><img src="{{ "/images/blog/PinBall/2.png" | absolute_url }}" alt="" width = "600" /></div>
