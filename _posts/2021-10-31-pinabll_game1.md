@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Pinball Game"
-date:   2017-10-31
+date:   2021-10-31
 excerpt: "Python; Euler-Lagrange Equations; Impacts"
 image: "/images/blog/PinBall/Pinball Game.gif"
 ---
-{{ "/images/blog/PinBall/general_idea.png" | absolute_url }}" alt=""
 This coordiate system of this pinball game is shown below:
 
 <div style="text-align: center"><img src="{{ "/images/blog/PinBall/general_idea.png" | absolute_url }}" alt="" /></div>
