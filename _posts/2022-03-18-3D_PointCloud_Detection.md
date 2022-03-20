@@ -22,17 +22,16 @@ Let's see a picture of the relationship of different coordinates in this kitti d
 
 1) Find the point cloud in camera field of view. Since Lidar can generate the data from 360 degree, and the camera can only see the front of the car, we don't need to deal with point cloud outside the field of view of camera.
 
-   <div style="text-align: center"><img src="{{ "/images/blog/3DPointcloudDetection/FOV.jpg" | absolute_url }}" alt="" /></div>
+   <div style="text-align: center"><img src="{{ "/images/blog/3DPointcloudDetection/FOV.jpg" | absolute_url }}" alt="" width = "600" /></div>
 
-   
 
 2. Extract all the groundtruth data in kitti labels. For this step, the center of the 3D bounding box in the camera frame and we need to transform them back to lidar frame to find corresponding points. We visualize the Cyclist in red,  Pedestrian in green, and Vehicles in blue.
 
-   <div style="text-align: center"><img src="{{ "/images/blog/3DPointcloudDetection/gt.jpg" | absolute_url }}" alt="" /></div>
+   <div style="text-align: center"><img src="{{ "/images/blog/3DPointcloudDetection/gt.png" | absolute_url }}" alt="" width = "600" /></div>
 
 3. Next, we need to remove ground and perform clustering strategy on the remaining data, and consider individual cluster as one object,  give all the objects label "Others". The clustering method I use is DBSCAN, a density-based spatial clustering of applications with noise.
 
-<div style="text-align: center"><img src="{{ "/images/blog/3DPointcloudDetection/cluster.jpg" | absolute_url }}" alt="" /></div>
+<div style="text-align: center"><img src="{{ "/images/blog/3DPointcloudDetection/cluster.png" | absolute_url }}" alt="" width = "600"/></div>
 
 
 
