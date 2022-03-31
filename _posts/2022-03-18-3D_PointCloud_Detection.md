@@ -11,9 +11,21 @@ Lidar, or Vision, has always been a debatable question in the industry of autono
 
 Here, we use kitti object detection dataset as our train and test ground. 3D point cloud data is used as input, and 2D image is used purely for visualization purpose. And use PointNet , a deep learning architecture specified designed for 3D point cloud data with very good performance on classification task.
 
-Let's see a picture of the relationship of different coordinates in this kitti dataset.
+This is the flow chart of the project.
 
-<div style="text-align: center"><img src="{{ "/images/blog/3DPointcloudDetection/coordinate-kitti.JPG" | absolute_url }}" alt="" width = "600" /></div>
+<div style="text-align: center"><img src="{{ "/images/blog/3DPointcloudDetection/flow_chart.png" | absolute_url }}" alt="" width = "600" /></div>
+
+Let's see a picture of the relationship of different coordinates in this kitti dataset. The object frame is relevant to the camera frame.
+
+<div style="text-align: center"><img src="{{ "/images/blog/3DPointcloudDetection/coordinate-kitti.jpg" | absolute_url }}" alt="" width = "600" /></div>
+
+
+
+And here is the formula to transform points from lidar coordinate to image plane.
+
+$$P_{image} = P_{rect}*R_0*T_{cam\_to\_lidar}*P_{idar}$$
+
+
 
 Since we cannot use the whole pointcloud image as the input Let's start by preparing our  training data. The goal of this step is to get separate pointcloud of different objects, for other world, to get pre-segmented data from a known scene.
 
