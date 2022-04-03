@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "3D Pointcloud Detection"
-date:   2022-03-18
+date:   2022-03-21
 excerpt: "Pointcloud; PointNet; DBSCAN; Classification;Kitti"
 image: "/images/blog/3DPointcloudDetection/result.gif"
 ---
