@@ -28,4 +28,10 @@ Here is the example for transform the newly accepted point cloud data to the coo
 
 <div style="text-align: center"><img src="{{ "/images/blog/fakescanner/transformation.jpg" | absolute_url }}" alt="" width = "600"/></div>
 
+And this is the result after the robot arm reconstruction
+
+<div style="text-align: center"><img src="{{ "/images/blog/fakescanner/fake_scanner.gif" | absolute_url }}" alt="" width = "400"/></div>
+
+This result can be proved by using some method to improve the estimation of pose, like using RTAB-MAP for pose estimation, and use method like teasar for better point cloud reconstruction.
+
 For more details: [click here to go to github repository](https://github.com/shirleyzzr1/fake_scanners)

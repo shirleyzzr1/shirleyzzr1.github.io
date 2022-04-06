@@ -2,7 +2,7 @@
 layout: post
 title:  "3D Pointcloud Detection"
 date:   2022-03-21
-excerpt: "Pointcloud; PointNet; DBSCAN; Classification;Kitti"
+excerpt: "PointNet; DBSCAN; Classification;Kitti"
 image: "/images/blog/3DPointcloudDetection/result.gif"
 ---
 <div style="text-align: center"><img src="{{ "/images/blog/3DPointcloudDetection/result.gif" | absolute_url }}" alt="" width = "600"/></div>
