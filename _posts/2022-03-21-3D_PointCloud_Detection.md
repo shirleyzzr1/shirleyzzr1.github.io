@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "3D Pointcloud Detection"
+title:  "3D Object Detection from Point Cloud on KITTI"
 date:   2022-03-21
 excerpt: "PointNet; DBSCAN; Classification;Kitti"
 image: "/images/blog/3DPointcloudDetection/result.gif"
