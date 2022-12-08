@@ -3,7 +3,7 @@ layout: post
 title:  "AR Game for Rehabilitation with Nreal Glass"
 date:   2022-12-07
 excerpt: "Unity; C#; OpenCV; Machine Learning; Android"
-image: "/images/blog/fakescanner/scanner.gif"
+image: "/images/blog/ARGame/ARGame.gif"
 ---
 ### OVERVIEW
 
@@ -80,7 +80,7 @@ Here's an example of the result of shoe detection in Unity with Nreal glass with
 To use the trained shoe detection model in a 3D setting, an extra sensor with depth estimation ability is needed. Also, the model still needs to be optimized for mobile device so the whole system can run faster.
 
 I have to give special thanks to Prof. Matthew Elwin and Prof. Matthew J Major for giving practical advice for system development along the way.
-If you are interested in the details for this project, you can check out the [github source code](https://github.com/shirleyzzr1/FinalProject). You could also check this post for some Unity and Nreal glass development tips.
+If you are interested in the details for this project, you can check out the [github source code](https://github.com/shirleyzzr1/FinalProject). You could also check [this post](https://github.com/shirleyzzr1/FinalProject/blob/main/Documents/debug%20tips.md) for some Unity and Nreal glass development tips.
 
 
 
